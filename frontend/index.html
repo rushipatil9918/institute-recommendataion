@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Institute Recommandation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <!-- box image -->
+            <div class="nav-logo">
+                <div class="logo border"></div>
+            </div>
+            <!-- box serch -->
+            <div class="nav-serch">
+                <select class="serch-select">
+                    <option value="">All</option>
+
+                    <input placeholder="Serch College" class="serch-input" id="college name">
+                    <div class="serch-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </select>
+            </div>
+            <div class="nav-four">
+                <div class="what">
+                    <i class="fa-brands fa-square-whatsapp "></i>
+                </div>
+                Ask Queries On Whatsapp 8047562465
+
+            </div>
+            <div><a href="Login.html" target="_self">Login</a></div>
+            <div><a href="Registration.html" target="_self">Create Account</a></div>
+        </div>
+    </header>
+        <!-- secont coloum -->
+        <div class="nav-br2">
+            <div class="col2-box1">
+                <select name="" class="sel-col" style="margin-left: 200px;">
+                    <option value="" class=>Top Ranked College</option>
+                    <div>
+                        <option value="">Dy Patil College Of Engineering</option>
+                    </div>
+                </select>
+                <select name="" class="sel-col">
+                    <option value="" class=>Popular Courses</option>
+                    <option value="">Computer Science</option>
+                    <option value="">Data Science</option>
+
+                </select>
+                <select name="" class="sel-col">
+                    <option value="" class=>Popular Specilization</option>
+                    <option value="">Computer Science</option>
+                    <option value="">Machine Learning</option>
+
+                </select>
+                <select name="" class="sel-col">
+                    <option value="" class=>College By Location</option>
+                    <option value="">Kolhapur</option>
+                    <option value="">Pune</option>
+                    <option value="">Mumbai</option>
+                </select>
+                <select name="" class="sel-col">
+                    <option value="" class=>Compare College</option>
+                    <div class="sec1-col">
+                        <option value="">Dy patil kasaba bavda & KIT</option>
+                        <option value=""></option>
+                        <option value="">Mumbai</option>
+                    </div>
+                </select>
+                <select name="" class="sel-col">
+                    <option value="" class=> College Review</option>
+                    <option value="">Dy patil Salokhenagar</option>
+                    <option value="">KIT</option>
+                    <option value="">MMIT</option>
+                </select>
+                <select name="" class="sel-col" style="margin-right: 200px;">
+                    <option value="" class=>Resources</option>
+                    <option value="">Ask Question</option>
+
+                </select>
+            </div>
+        </div>
+        <!-- third coloum -->
+        <div class="col3">
+            <div>
+                <h4 style="margin-top: 30px;">ENTER YOUR MHT-CET SCORE</h4>
+                <p class="p">Enter Your MHT-CET Score That Will Help Us To Pridect The College For You</p>
+                <form method="post" id="percentile-input-form" action="/college">
+                    <div
+                        style="border: 2px double gray; margin-left: 550px; margin-right: 550px; margin-top: 20px; margin-bottom: 20px; height: 500px;">
+                        <h4 style="margin-top: 20px;">Enter Mark's</h4>
+                        <input type="number" class="score-class" id="percentile" required>
+                        <br>
+                        <div class="gender">
+                            <h4>Gender: </h4>
+                            <br>
+                            <div style="margin-top: 10px;">
+                                <input type="radio" value="Male" name="gender" style="margin-left: 10px;"> Male
+                                <input type="radio" value="Male" name="gender" style="margin-left: 10px;"> Female
+                                <input type="radio" value="Female" name="gender" style="margin-left: 10px;"> Other
+                                <br>
+                                <h4 style="margin-top: 20px;">Select Cast :</h4>
+                                <select name="" class="cast-sel" required="">
+                                    <option value="">General</option>
+                                    <option value="">OBC</option>
+                                    <option value="">SBC</option>
+                                    <option value="">SC</option>
+                                    <option value="">ST</option>
+                                    <option value="">NT-1</option>
+                                    <option value="">NT-2</option>
+                                    <option value="">NT-3</option>
+                                    <option value="">NT-4</option>
+                                </select>
+                                <br>
+                                <h4 style="margin-top: 20px;">Select Stream :</h4>
+                                <select name="" class="cast-sel" required="">
+                                    <option value="">Cource</option>
+                                    <option value="">CSE</option>
+                                    <option value="">Data Science</option>
+                                    <option value="">Electric</option>
+                                    <option value="">Civil</option>
+                                    <option value="">Mechanical</option>
+                                    <option value="">Chemical</option>
+                                    <option value="">Al</option>
+
+                                </select>
+                                <br>
+                                <button style="margin-top: 20px; height: 40px; background-color: rgb(243, 131, 2);"
+                                    type="submit">Predict College</button>
+                            </div>
+
+                        </div>
+                </form>
+            </div>
+        </div>
+        <div>
+        </div>
+        </div>
+
+        <!-- col4 -->
+
+        <!-- <div>
+            <div class="col4-row1">
+                <div style="height: 100px; width: 100%; border-bottom: 1px solid gray;">
+                    <h4 style="margin-left: 20px;">Dy Patil College Of Engineering Kolhapur</h4>
+                    <div style="margin-bottom: 10px;">
+                        <i class="fa-solid fa-location-arrow" style="margin-top: 60px; margin-left: 5px;"></i>
+                        <a href="https://dypgroup.edu.in/">Kolhapur</a>
+                    </div>
+                    <div style="border-right: 5px solid gray;">
+
+                    </div>
+                </div>
+                <p style="margin-left: 10px;"> B - Tech CSE </p>
+                <p style="margin-top: 10px; margin-left: 10px;">Cut Off</p>
+                <div
+                    style="height: 150px; border: 2px solid gray; margin-left:20px; margin-top:20px; margin-right:20px;">
+                    <div>
+                        <div class="col4-t-row1">
+                            <p style="margin-top: 15px;"> Round 1</p>
+                        </div>
+                        <div class="col4-t-row1">
+                            <p style="margin-top: 15px;"> Round 2</p>
+                        </div>
+                        <div class="col4-t-row1">
+                            <p style="margin-top: 15px;">Round 3</p>
+                        </div>
+                        <div>
+                            <div class="col4-t-row1">
+                                <p style="margin-top: 15px;"> 94.50 %</p>
+                            </div>
+                            <div class="col4-t-row1">
+                                <p style="margin-top: 15px;"> 83.33 %</p>
+                            </div>
+                            <div class="col4-t-row1">
+                                <p style="margin-top: 15px;">70 %</p>
+                            </div>
+                            <div>
+                                <div class="col4-t-row1">
+                                    <p style="margin-top: 15px;"> 93.40 %</p>
+                                </div>
+                                <div class="col4-t-row1">
+                                    <p style="margin-top: 15px;"> 87.25 %</p>
+                                </div>
+                                <div class="col4-t-row1">
+                                    <p style="margin-top: 15px;">80.70 %</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- secount table -->
+            <!-- <div class="col4-row2">
+                <div style="height: 100px; width: 100%; border-bottom: 1px solid gray;">
+                    <h4 style="margin-left: 20px;">KIT College Of Engineering Kolhapur</h4>
+                    <div style="margin-bottom: 10px;">
+                        <i class="fa-solid fa-location-arrow" style="margin-top: 60px; margin-left: 5px;"></i>
+                        <a href="https://www.kitcoek.in/">Kolhapur</a>
+                    </div>
+                    <div style="border-right: 5px solid gray;">
+
+                    </div>
+                </div>
+                <p style="margin-left: 10px;"> B - Tech CSE </p>
+                <p style="margin-top: 10px; margin-left: 10px;">Cut Off</p>
+                <div
+                    style="height: 150px; border: 2px solid gray; margin-left:20px; margin-top:20px; margin-right:20px;">
+                    <div>
+                        <div class="col4-t-row1">
+                            <p style="margin-top: 15px;"> Round 1</p>
+                        </div>
+                        <div class="col4-t-row1">
+                            <p style="margin-top: 15px;"> Round 2</p>
+                        </div>
+                        <div class="col4-t2-row1">
+                            <p style="margin-top: 15px;">Round 3</p>
+                        </div>
+                        <div>
+                            <div>
+                                <div class="col4-t-row1">
+                                    <p style="margin-top: 15px;"> 95 %</p>
+                                </div>
+                                <div class="col4-t-row1">
+                                    <p style="margin-top: 15px;"> 89.64%</p>
+                                </div>
+                                <div class="col4-t2-row1">
+                                    <p style="margin-top: 15px;">82.94%</p>
+                                </div>
+                                <div>
+                                    <div>
+                                        <div>
+                                            <div class="col4-t-row1">
+                                                <p style="margin-top: 15px;"> 93.50%</p>
+                                            </div>
+                                            <div class="col4-t-row1">
+                                                <p style="margin-top: 15px;"> 86.63%</p>
+                                            </div>
+                                            <div class="col4-t2-row1">
+                                                <p style="margin-top: 15px;">73.38%</p>
+                                            </div>
+                                            <div>
+                                            </div>
+                                        </div> -->
+    
+<script src="./script/irs.js"></script>
+
+</body>
+
+</html>

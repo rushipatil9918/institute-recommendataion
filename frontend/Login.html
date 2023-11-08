@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <style>
+        form {
+            border: 3px solid #f1f1f1;
+            width: 50%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        button[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        .container {
+            padding: 16px;
+        }
+
+        hr {
+            border: 1px solid #f1f1f1;
+            margin-bottom: 25px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        a {
+            color: dodgerblue;
+        }
+
+        .signin {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="login-form" action="/login" method="post">
+        <div class="container">
+            <h1>Login</h1>
+            <p>Please fill in this form to log in to your account.</p>
+            <hr>
+
+            <label for="loginEmail"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="loginEmail" id="loginEmail" required>
+
+            <label for="loginPsw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="loginPsw" id="loginPsw" required>
+
+            <hr>
+
+            <button type="submit">Login</button>
+        </div>
+
+        <div class="container signin">
+            <p>Don't have an account? <a href="Registration.html">Sign up</a>.</p>
+        </div>
+    </form>
+
+    <script src="script/Login.js"></script>
+
+</body>
+
+</html>

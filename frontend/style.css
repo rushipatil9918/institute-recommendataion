@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box ;
+}
+.navbar{
+    height: 90px;
+    background-color: rgb(106, 199, 218);
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    position:sticky;
+    top: 0px;
+} 
+.nav-logo{
+        height: 90px;
+        width: 171px;
+       
+}
+input, select{
+    border-radius: 8px;
+}
+
+.logo{
+    width: 100%;
+    height: 90px;
+    background-image: url("college.jpg");
+    background-size: cover;
+    margin-left: 2px;
+    
+}
+.border{
+      border: px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+/* box 2 **/
+.nav-serch{
+    justify-content: space-evenly;
+    display: flex;
+    width: 823px;
+    height: 50px;
+    background: pink;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+ .nav-serch:hover{
+    border: 2px solid rgb(206, 132, 36);
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+} 
+.serch-select{ 
+    background-color: rgb(245, 244, 240);
+    width: 50px;
+    text-align: center;
+    border-radius: 4px; 
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border: none;
+}  
+.serch-input{
+    width:100% ;
+    border: none;
+}
+.serch-icon{
+    width: 45px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: rgb(206, 132, 36);
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    color: white;
+}
+.nav-four{
+   color: white;
+   display: flex;
+   font-size: 12px;
+   align-items: center;
+   width: 228px;
+   height: 92px;
+}
+.what{
+    
+    height: 38px;
+    width: 50px;
+    display: flex;
+    font-size: 35px;
+    align-items: center;
+}
+.what:hover{
+    color: green;
+}
+/* .login{
+        color: blu;
+        height: 25px;
+        width: 50px;
+        background-color: rgb(65, 166, 186);
+        border: none;
+}
+.sign-up{
+    color: blue;
+    height: 25px;
+    width: 70px;
+    background-color: rgb(65, 166, 186);
+    border: none;
+} */
+.login:hover{
+    
+    color: white;
+    background-color:  rgb(6, 202, 241);
+}
+.sign-up:hover{
+    color: white;
+    background-color: rgb(6, 202, 241);
+}
+.nav-br2{
+    background-color: rgb(6, 202, 241);
+    height: 30px;
+    justify-content: space-evenly;
+}
+.col2-box1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sel-col{
+    width: 150px;
+    background-color: rgb(6, 202, 241);
+    border: none;
+    color: white;
+}
+.col3{
+    width: 100%;
+    height: 650px;
+    border: 2px double gray;
+    text-align: center;
+}
+.sec1-col{
+    background-color: white;
+}
+.click:sel-col{
+    color: white;
+}
+.p{
+    margin-top: 30px;
+}
+.score-class{
+    margin-top: 30px;
+    height: 30px;
+}
+.gender{
+    margin-top: 20px;
+}
+.cast-sel{
+    height: 50px;
+    width: 200px;
+    margin-top: 30px;
+}
+.col4-row1{
+    height: 350px;
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /* border: 2px double gray; */
+    box-shadow: 2px 2px 2px 2px rgb(209, 208, 208);
+    /* justify-content: space-evenly; */
+    float: left;
+}
+.col4-t-row1{
+    height: 50px;
+    width: 238px;
+    box-shadow: 2px 2px 2px 2px rgb(209, 208, 208);
+    float: left;
+    text-align: center;
+}
+.col4-row1:hover{
+    background-color: aquamarine;
+    color: white;
+}
+.col4-row2{
+    height: 350px;
+    width: 45%;
+    box-shadow: 2px 2px 2px 2px rgb(209, 208, 208);
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.col4-t2-row1{
+    height: 50px;
+    width: 162px;
+    box-shadow: 2px 2px 2px 2px rgb(209, 208, 208);
+    float: left;
+    text-align: center;
+}
+.col4-t2-row1:hover{
+    background-color: aquamarine;
+    color: white;
+}
+.col4-row2:hover{
+    background-color: aquamarine;
+    color: white;
+}
