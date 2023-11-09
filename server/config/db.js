@@ -9,7 +9,7 @@ const connectDB = async () => {
     .connect(process.env.MONGO_URI, { dbName: databaseName })
     .then((c) => {
       console.log(
-        `Database connected with to ${databaseName}`
+        `Database connected to ${databaseName}`
       );
     })
     .catch((error) => {
